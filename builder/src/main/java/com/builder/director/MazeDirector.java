@@ -2,16 +2,16 @@ package com.builder.director;
 
 import com.builder.builder.MazeBuilder;
 import com.builder.product.Maze;
-class MazeDirector {
+public class MazeDirector {
     private int[][] maze;
     private MazeBuilder builder;
     
-    MazeDirector(int[][] maze, MazeBuilder builder) {
+    public MazeDirector(int[][] maze, MazeBuilder builder) {
     	this.maze = maze;
     	this.builder = builder;
     }
     
-    Maze build() {
+    public Maze build() {
         for(int i = 0; i < maze.length; i++) {
             for(int j = 0; j < maze[i].length; j++) {
                 switch (maze[i][j]) {

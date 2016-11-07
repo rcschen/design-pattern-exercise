@@ -2,10 +2,10 @@ package com.builder.product;
 import com.builder.product.Maze;
 
 
-class PainMaze implements Maze {
+public class PlainMaze implements Maze {
 	private char[][] maze;
 	
-	PainMaze(char[][] maze) {
+	public PlainMaze(char[][] maze) {
 		this.maze = maze;
 	}
 	

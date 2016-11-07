@@ -1,14 +1,18 @@
 package com.builder.builder;
 
 import com.builder.builder.MazeBuilder;
+import com.builder.product.PlainMaze;
 import com.builder.product.Maze;
 
 
 
-class PlainBuilder implements MazeBuilder {
+public class PlainBuilder implements MazeBuilder {
     private char[][] maze;
 	
-
+    public PlainBuilder(int i, int j) {
+    	this.maze = new char[i][j];
+    }
+    
     public void buildRoad(int i, int j) {
         maze[i][j] = '　';
     }
@@ -21,6 +25,6 @@ class PlainBuilder implements MazeBuilder {
 
     @Override
     public Maze getMaze() {
-           return new Maze();
+          return new PlainMaze(this.maze);
     }
 }
