@@ -10,3 +10,5 @@
 
 # Behavioral 模式
 - [command](https://github.com/rcschen/design-pattern-exercise/tree/master/command)
+
+# 多執行緒模式
