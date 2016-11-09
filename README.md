@@ -10,5 +10,6 @@
 
 # Behavioral 模式
 - [command](https://github.com/rcschen/design-pattern-exercise/tree/master/command)
+- [state](https://github.com/rcschen/design-pattern-exercise/tree/master/state_trafficlight)
 
 # 多執行緒模式
