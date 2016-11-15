@@ -7,6 +7,7 @@
 - [builder](https://github.com/rcschen/design-pattern-exercise/tree/master/builder)
 
 # Structural 模式
+- [bridge](https://github.com/rcschen/design-pattern-exercise/tree/master/bridge_turtle)
 
 # Behavioral 模式
 - [command](https://github.com/rcschen/design-pattern-exercise/tree/master/command)
