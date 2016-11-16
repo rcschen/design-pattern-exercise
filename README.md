@@ -14,5 +14,6 @@
 - [state](https://github.com/rcschen/design-pattern-exercise/tree/master/state_trafficlight)
 - [chain of responsibility](https://github.com/rcschen/design-pattern-exercise/tree/master/chainOfResponsibility_char_handler)
 - [strategy](https://github.com/rcschen/design-pattern-exercise/tree/master/strategy_operator)
+- [visitor](https://github.com/rcschen/design-pattern-exercise/tree/master/visitor)
 
 # 多執行緒模式
